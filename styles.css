@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap');
+:root{--paper:#f6efe5;--ink:#42171b;--muted:#745b53;--copper:#a76e50;--line:#cba78f;--serif:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:96px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 var(--sans)}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}img{display:block;max-width:100%}a,button{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible{outline:3px solid var(--copper);outline-offset:5px}h1,h2,h3,p{overflow-wrap:break-word}h2{font:500 clamp(40px,4.8vw,66px)/1.05 var(--serif);letter-spacing:-1.5px;margin:0}em{font-weight:400}.wrap{max-width:1240px;padding-left:56px;padding-right:56px;margin:auto}.eyebrow{font-size:12px;font-weight:500;letter-spacing:2.4px;margin:0 0 20px;text-transform:uppercase}.skip{position:fixed;top:-100px;left:16px;background:var(--ink);color:var(--paper);padding:12px;z-index:100}.skip:focus{top:8px}
+.header{height:90px;display:flex;align-items:center;gap:42px;padding:0 max(4.5vw,24px);background:var(--paper);position:sticky;top:0;z-index:20;border-bottom:1px solid #cba78f50}.wordmark{font:500 50px/1 var(--serif);letter-spacing:-8px;padding-right:8px;color:var(--copper)}.header-rule{display:flex;align-items:center;gap:12px;flex:1;color:var(--copper)}.header-rule:before,.header-rule:after{content:'';height:1px;background:var(--line);flex:1}.header nav{display:flex;gap:32px;align-items:center;font:500 14px var(--serif);letter-spacing:2px;text-transform:uppercase}.header nav a{padding:10px 0;border-bottom:1px solid transparent}.header nav a:hover{border-color:var(--copper)}.menu-toggle{display:none}
+.hero{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:center;position:relative;min-height:620px;padding-top:34px;padding-bottom:55px;isolation:isolate}.hero:after{content:'';position:absolute;right:calc((min(100vw,1240px) - 100vw)/2);top:0;width:180px;height:100%;background:url('assets/botanical.webp') right center/contain no-repeat;opacity:.65;z-index:-1;pointer-events:none}.hello{font:48px/1.1 'Allura',cursive;color:var(--copper);margin:0 0 10px}.hero h1{font:500 clamp(58px,6.8vw,88px)/.93 var(--serif);letter-spacing:-3px;text-transform:uppercase;margin:0 0 20px}.hero h1 em{font-style:normal;font-size:1.18em}.hero-role{font:500 clamp(18px,2vw,25px)/1.3 var(--serif);letter-spacing:3px;text-transform:uppercase;color:var(--copper);margin:0 0 7px}.hero .eyebrow{font:400 17px/1.5 var(--serif);letter-spacing:0;text-transform:none;margin:0}.fine-divider{display:flex;align-items:center;color:var(--copper);gap:0;max-width:420px;margin:17px 0 13px;line-height:1}.fine-divider:before,.fine-divider:after{content:'';height:1px;background:var(--line);flex:1}.intro{font:400 17px/1.65 var(--serif);max-width:545px;margin:0}.hero-actions{display:flex;gap:16px;flex-wrap:wrap;margin-top:24px}.button{display:inline-flex;justify-content:center;align-items:center;padding:13px 22px;border:1px solid var(--copper);border-radius:2px;font:500 13px/1.5 var(--serif);letter-spacing:1.4px;text-transform:uppercase;min-height:46px}.primary{background:var(--ink);border-color:var(--ink);color:var(--paper)}.primary:hover{background:#61292e}.secondary:hover{background:#e8d8c8}.hero-visual{justify-self:center;width:min(100%,280px);padding:12px 0;position:relative}.portrait-frame{position:relative;padding:7px;border:1px solid var(--copper);border-radius:160px 160px 0 0}.portrait-frame:after{content:'✦';position:absolute;right:-10px;top:52%;font-size:26px;color:var(--copper);line-height:1;background:var(--paper)}.portrait-frame img{width:100%;height:355px;object-fit:cover;object-position:50% 100%;border:1px solid var(--copper);border-radius:150px 150px 0 0;background:#c4b5a5;padding-top:25px}.portrait-caption{display:block;text-align:center;font:italic 19px/1.5 var(--serif);color:var(--copper);margin-top:20px}.discipline-strip{background:var(--ink);color:var(--paper);display:flex;justify-content:center;align-items:center;gap:26px;padding:23px 24px;border-bottom:1px solid #bc927565;font:400 14px/1.5 var(--serif);letter-spacing:3px;text-transform:uppercase}.discipline-strip:before,.discipline-strip:after{content:'';width:15%;height:1px;background:var(--line);opacity:.7}.discipline-strip b{color:var(--line);font-size:22px;font-weight:400}
+.work-section{background:var(--ink);color:var(--paper);max-width:none;padding:60px max(56px,calc((100vw - 1128px)/2)) 74px}.section-top{display:flex;align-items:end;justify-content:space-between;gap:35px;margin-bottom:32px}.section-intro{max-width:325px;margin:0;font-size:16px;color:var(--muted)}.work-section .section-intro{color:#d7c2b6}.work-section h2 br{display:none}.work-section h2 em{font-style:normal}.work-section .eyebrow{color:#d8b799}.work-toolbar{display:flex;gap:18px;justify-content:space-between;align-items:center;margin-bottom:30px;padding-bottom:24px;border-bottom:1px solid #cba78f65}.filters{display:flex;flex-wrap:wrap;gap:9px}.filters button{font:400 14px/1.5 var(--serif);padding:9px 17px;border:1px solid #b28b75;border-radius:30px;transition:background .2s}.filters button[aria-pressed=true]{background:var(--paper);color:var(--ink);border-color:var(--paper)}.filters button:hover{background:#ffffff17}.filters button[aria-pressed=true]:hover{background:#e9d8c7}#work-count{font-size:12px;white-space:nowrap;color:#d7c2b6}.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:38px 25px}.project{min-width:0}.project[hidden]{display:none}.project button{display:block;text-align:left;width:100%;padding:0}.project-cover{position:relative;aspect-ratio:1672/941;display:flex;align-items:center;justify-content:center;background:#f1e7d8;overflow:hidden;border:1px solid #cba78f55}.project-cover>img{width:100%;height:100%;object-fit:contain}.open-label{position:absolute;right:12px;bottom:12px;padding:6px 12px;background:var(--paper);color:var(--ink);font-size:12px;opacity:0;transition:opacity .2s}.project button:hover .open-label,.project button:focus-visible .open-label{opacity:1}.project-meta{display:flex;justify-content:space-between;gap:15px;padding-top:15px}.project h3{font:400 34px/1.1 var(--serif);margin:0 0 8px}.project-meta p{font-size:12px;color:#d7c2b6;margin:0;letter-spacing:.6px}.project-number{font:italic 20px var(--serif);color:#cba78f}.phone-set{display:flex;width:100%;height:100%;justify-content:center;align-items:center;gap:7%;padding:12px;background:#e6c9c3}.phone-set img{max-width:25%;max-height:100%;object-fit:contain}.case-canvas{width:100%;aspect-ratio:1366/768;position:relative;overflow:hidden;background:#e0b499}.case-canvas img{position:absolute;object-fit:fill}.food .base{left:-1.67%;top:7.79%;width:103.34%;height:88.39%}.food .profile{left:30.95%;top:31.36%;width:38.93%;height:34.89%}.food .posts{left:71.09%;top:31.36%;width:29.06%;height:33.73%}.floral .base{left:4.44%;top:7.99%;width:89.94%;height:92.01%}.floral .profile{left:35.44%;top:35.06%;width:29.11%;height:33.78%}.floral .posts{left:66.49%;top:33.99%;width:27.89%;height:35.92%}
+.about-section{padding:78px 0;background:url('assets/botanical.webp') left bottom/150px auto no-repeat}.about-grid{display:grid;grid-template-columns:.65fr 1.4fr;gap:70px;align-items:center}.about-portrait{max-width:240px;justify-self:center}.about-portrait img{width:100%;border-radius:130px 130px 0 0;border:1px solid var(--copper);padding:7px}.about-copy h2{margin-bottom:25px}.about-copy p:not(.eyebrow){color:var(--muted)}.social-links{display:flex;gap:24px;font-size:14px;margin-top:25px}.social-links a{border-bottom:1px solid var(--copper)}.skills-section{padding-top:60px;padding-bottom:65px;border-top:1px solid var(--line)}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:34px}.services article{border-top:1px solid var(--line);padding-top:24px}.service-number{font:italic 22px var(--serif);color:var(--copper)}.services h3{font:500 29px/1.2 var(--serif);margin:16px 0 12px}.services p{color:var(--muted)}.tool-list{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.tool-list span{padding:10px 17px;border:1px solid var(--line);border-radius:30px;font-size:14px}.education{padding-top:55px;padding-bottom:70px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1.5fr;gap:50px}.education-list article{padding-bottom:24px;margin-bottom:24px;border-bottom:1px solid var(--line)}.education-list article:last-child{margin:0}.date{font-size:12px;color:var(--copper);letter-spacing:1px}.education h3{font:500 27px/1.2 var(--serif);margin:10px 0}.education p{margin:0;color:var(--muted)}
+.contact{background:var(--ink);color:var(--paper);padding:64px 0 0;position:relative;isolation:isolate;overflow:hidden}.contact:after{content:'';position:absolute;right:-40px;top:20px;width:200px;height:450px;background:url('assets/botanical.webp') center/contain no-repeat;opacity:.5;z-index:-1;pointer-events:none}.contact .eyebrow{color:#d8b799}.contact-heading{display:flex;justify-content:space-between;align-items:center}.contact-heading h2{font-size:clamp(50px,6vw,80px)}.contact-heading>span{font:70px var(--serif);color:var(--line);margin-right:90px}.contact-intro{max-width:510px;color:#dfcfc3;margin:25px 0}.contact-row{display:flex;align-items:center;gap:30px;flex-wrap:wrap}.email{font:400 clamp(25px,3.6vw,43px)/1.4 var(--serif);border-bottom:1px solid var(--line);overflow-wrap:anywhere}.light{border-color:var(--line)}.light:hover{background:var(--paper);color:var(--ink)}.contact-details{display:flex;gap:30px;flex-wrap:wrap;margin-top:28px;font-size:14px}.contact-details a:hover{text-decoration:underline}#copy-status{min-height:24px;font-size:14px}footer{border-top:1px solid #cba78f60;display:flex;justify-content:space-between;gap:20px;padding:25px 0;font-size:12px;color:#dfcfc3}
+dialog{width:min(1200px,94vw);max-height:92vh;padding:0;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:4px;box-shadow:0 20px 100px #0006}dialog::backdrop{background:#241014dc}.dialog-header{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 30px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--paper);z-index:2}.dialog-header h2{font-size:34px;letter-spacing:0}.dialog-header .eyebrow{font-size:12px;margin-bottom:5px}.close-dialog{padding:9px 15px;border:1px solid var(--line);white-space:nowrap;font-size:14px}.close-dialog span{font-size:23px;margin-left:10px}.dialog-body{padding:28px}.dialog-body>img{width:100%;height:auto}.dialog-body .phone-set{max-height:650px;padding:35px 15px}.dialog-body .phone-set img{max-height:560px}.original-images{display:grid;gap:24px;margin-top:28px}.original-images img{width:100%;height:auto}.original-images h3{font:28px var(--serif);margin:18px 0 0}.dialog-footer{display:flex;justify-content:space-between;align-items:center;padding:16px 28px;gap:10px;border-top:1px solid var(--line)}.dialog-footer button{border:1px solid var(--line);padding:10px 18px;font-size:14px}.dialog-footer button:hover{background:var(--ink);color:var(--paper)}#dialog-position{font-size:12px;color:var(--muted)}body.modal-open{overflow:hidden}
+@media(min-width:1400px){.hero{min-height:650px}.hero-visual{width:300px}.portrait-frame img{height:380px}}
+@media(max-width:1000px){.wrap{padding-left:34px;padding-right:34px}.header{gap:24px}.header nav{gap:22px}.hero{gap:30px;grid-template-columns:1.4fr .9fr;min-height:600px}.hero h1{font-size:64px}.hero-role{font-size:20px;letter-spacing:2px}.hero-visual{width:245px}.portrait-frame img{height:330px}.hero:after{width:100px;opacity:.4}.button{padding:12px 16px}.work-section{padding-left:34px;padding-right:34px}.about-grid{gap:40px}.section-intro{max-width:280px}.project h3{font-size:29px}}
+@media(max-width:700px){html{scroll-padding-top:80px}.wrap{padding-left:24px;padding-right:24px}.header{height:76px;padding:0 24px;gap:22px}.wordmark{font-size:43px}.header-rule{max-width:130px;margin-right:auto}.menu-toggle{display:block;border:1px solid var(--line);padding:8px 15px;font-size:14px}.header nav{display:none;position:absolute;left:0;right:0;top:75px;background:var(--paper);padding:20px 24px;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:10px}.header nav.open{display:flex}.hero{grid-template-columns:1fr;gap:25px;padding-top:28px;padding-bottom:36px;min-height:0}.hello{font-size:42px}.hero h1{font-size:clamp(52px,12.8vw,78px);letter-spacing:-2px}.hero-role{font-size:19px}.hero .eyebrow{font-size:16px}.intro{font-size:18px}.hero-visual{width:210px;margin:0 auto}.portrait-frame img{height:280px;padding-top:20px}.portrait-caption{font-size:18px;margin-top:15px}.hero:after{width:110px;top:45%;height:55%;opacity:.6}.hero-actions{gap:10px}.button{font-size:12px;padding:12px 16px}.discipline-strip{gap:12px;padding:19px 14px;font-size:12px;letter-spacing:1.2px}.discipline-strip:before,.discipline-strip:after{display:none}.discipline-strip b{font-size:16px}.work-section{padding:45px 24px 55px}.section-top{display:block;margin-bottom:26px}.section-intro{max-width:none;margin-top:20px}.work-toolbar{align-items:start;flex-direction:column;gap:15px}.filters{gap:8px}.filters button{font-size:14px;padding:8px 14px}.project-grid{grid-template-columns:1fr;gap:30px}.project h3{font-size:32px}.open-label{opacity:1;font-size:12px}.about-section{padding:55px 0;background-size:90px}.about-grid{grid-template-columns:1fr;gap:35px}.about-portrait{max-width:190px}.about-copy h2{font-size:43px}.skills-section{padding-top:45px;padding-bottom:45px}.services{grid-template-columns:1fr;gap:15px}.services article{padding-top:18px}.services h3{margin-top:10px}.education{grid-template-columns:1fr;gap:30px;padding-top:45px;padding-bottom:45px}.contact{padding-top:45px}.contact-heading>span{font-size:45px;margin-right:0}.contact:after{opacity:.25;width:120px}.contact-row{gap:18px}.contact-details{gap:15px 20px}footer{flex-wrap:wrap}footer span:last-child{width:100%}.dialog-header{padding:18px;align-items:start}.dialog-header h2{font-size:27px}.dialog-header .eyebrow{letter-spacing:1px}.dialog-body{padding:12px}.dialog-footer{padding:14px 12px}.dialog-footer button{font-size:12px;padding:9px 10px}.dialog-body .phone-set{gap:4%;padding:20px 8px}.dialog-body .phone-set img{max-width:29%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+
+/* Editorial About detail: keep the page balanced without forcing a second portrait. */
+.about-portrait{min-height:300px;display:flex;flex-direction:column;justify-content:center;align-items:center;border:1px solid var(--copper);border-radius:150px 150px 0 0;padding:30px 24px 24px;background:linear-gradient(160deg,#f5e8d9,#ead3bf)}
+.about-portrait img{display:none}
+
+/* Final About image visibility override. */
+.about-portrait img{display:block!important;content:url('assets/mae-about-cafe-v2.jpg');width:100%;aspect-ratio:4/5;object-fit:cover;object-position:72% 56%;border:1px solid var(--copper);border-radius:130px 130px 0 0;padding:7px}
+
+/* The About photo is a candid rectangular image; only the home portrait uses the arch. */
+.about-portrait img{aspect-ratio:4/3;object-position:72% 60%;border-radius:4px;padding:7px}
+
+/* Force the exact supplied images at the component level. */
+.portrait-frame{background:url('assets/mae-home-original-v2.jpg') center 42%/cover no-repeat!important}
+.portrait-frame img{visibility:hidden!important}
+.about-portrait{background:url('assets/mae-about-cafe-v2.jpg') 72% 60%/cover no-repeat!important;border:1px solid var(--copper);border-radius:4px!important;padding:7px!important}
+.about-portrait img{visibility:hidden!important}
+.about-portrait:before{content:'MF';font:500 112px/.9 var(--serif);letter-spacing:-10px;color:var(--ink)}
+.about-portrait:after{content:'MAE FATIMA MAGALE';font:500 11px var(--sans);letter-spacing:2.5px;color:var(--copper);margin-top:22px}
+.about-portrait .portrait-caption{margin-top:22px}
+@media(max-width:700px){.about-portrait{min-height:240px;max-width:190px}.about-portrait:before{font-size:88px}}
+
+/* Keep the listed tools focused on the user's visible creative platforms. */
+.tool-list span:last-child{display:none}
+
+/* Candid About image treatment: keep the lifestyle photo understated and editorial. */
+.about-portrait{display:block;min-height:0;max-width:300px;padding:0;border:0;border-radius:0;background:none}
+.about-portrait:before,.about-portrait:after{display:none}
+.about-portrait img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:72% 56%;border:1px solid var(--copper);border-radius:130px 130px 0 0;padding:7px}
+.about-portrait .portrait-caption{margin-top:20px}
+@media(max-width:700px){.about-portrait{max-width:220px}}
+
+/* Keep the original blue-floral portrait balanced inside the arch. */
+.portrait-frame img{object-fit:cover;object-position:50% 42%;}
+
+/* Fresh asset URLs ensure the browser loads the exact updated photos. */
+.portrait-frame img{content:url('assets/mae-home-original-v2.jpg')}
+.about-portrait img{content:url('assets/mae-about-cafe-v2.jpg')}
+
+/* Use Mae's graduation portrait in the About section. */
+.about-portrait{display:block;min-height:0;padding:0;border:0;border-radius:0;background:none}
+.about-portrait:before,.about-portrait:after{display:none}
+.about-portrait img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 58%;border:1px solid var(--copper);border-radius:130px 130px 0 0;padding:7px}
+.about-portrait .portrait-caption{margin-top:20px}
+
+/* Keep the About panel editorial and uncluttered. */
+.about-portrait{min-height:300px;display:flex;flex-direction:column;justify-content:center;align-items:center;border:1px solid var(--copper);border-radius:150px 150px 0 0;padding:30px 24px 24px;background:linear-gradient(160deg,#f5e8d9,#ead3bf)}
+.about-portrait img{display:none}
+.about-portrait:before{content:'MF';display:block;font:500 112px/.9 var(--serif);letter-spacing:-10px;color:var(--ink)}
+.about-portrait:after{content:'MAE FATIMA MAGALE';display:block;font:500 11px var(--sans);letter-spacing:2.5px;color:var(--copper);margin-top:22px}
+@media(max-width:700px){.about-portrait{min-height:240px;max-width:190px}.about-portrait:before{font-size:88px}}
+
+/* Final About photo layout: a compact editorial card for Mae's café image. */
+.about-portrait{
+  position:relative!important;
+  isolation:isolate;
+  display:block!important;
+  width:min(100%,285px)!important;
+  max-width:285px!important;
+  min-height:0!important;
+  justify-self:center!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  background:none!important;
+}
+.about-portrait:before{
+  content:''!important;
+  position:absolute!important;
+  inset:14px -14px -14px 14px!important;
+  border:1px solid var(--line)!important;
+  border-radius:4px!important;
+  z-index:-1!important;
+}
+.about-portrait:after{
+  content:'MAE FATIMA MAGALE'!important;
+  position:absolute!important;
+  right:-42px!important;
+  bottom:64px!important;
+  writing-mode:vertical-rl!important;
+  font:500 10px/1 var(--sans)!important;
+  letter-spacing:2px!important;
+  color:var(--copper)!important;
+}
+.about-portrait img{
+  visibility:visible!important;
+  display:block!important;
+  width:100%!important;
+  height:auto!important;
+  aspect-ratio:3/4!important;
+  object-fit:cover!important;
+  object-position:50% 58%!important;
+  padding:8px!important;
+  border:1px solid var(--copper)!important;
+  border-radius:4px!important;
+  background:var(--paper)!important;
+  content:url('assets/mae-about-cafe-v2.jpg')!important;
+}
+.about-portrait .portrait-caption{
+  position:absolute!important;
+  left:16px!important;
+  bottom:16px!important;
+  margin:0!important;
+  padding:8px 12px!important;
+  background:rgba(246,239,229,.94)!important;
+  color:var(--ink)!important;
+  text-align:left!important;
+  font-size:15px!important;
+  line-height:1.35!important;
+}
+@media(max-width:700px){
+  .about-portrait{width:min(100%,245px)!important;max-width:245px!important}
+  .about-portrait:before{inset:10px -10px -10px 10px!important}
+  .about-portrait:after{right:-30px!important;bottom:52px!important;font-size:9px!important}
+  .about-portrait .portrait-caption{left:12px!important;bottom:12px!important;font-size:14px!important}
+}
