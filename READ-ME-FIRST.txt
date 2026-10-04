@@ -1,0 +1,48 @@
+MAE SOCIALS — STRATEGIES FOR ALL FOUR CONCEPT BRANDS
+Release: ALL-BRANDS-20261004
+
+PREVIEW
+1. Extract the ZIP into a new folder.
+2. Open START-HERE.html or index.html in your browser.
+3. The homepage should say: Content with a purpose. A plan behind every post.
+4. In Strategy, choose Brew & Bean, Glow Theory, Style Muse, or Stronger With
+   Sam. The matching strategy, sample audit, and month plan should appear.
+
+PUBLISH THROUGH YOUR EXISTING WEBSITE REPOSITORY
+Upload these extracted items to the repository root:
+- index.html
+- portfolio-all-brands-20261004.css
+- portfolio-all-brands-20261004.js
+- the entire assets folder, including previews and posts
+- photo-credits.txt
+
+Keep filenames and folder structure exactly as supplied. No build tools or
+backend are required. START-HERE.html, this file, and PORTFOLIO-HANDOVER.md
+are local handover material and do not need to be published.
+
+The homepage uses fresh CSS and JavaScript filenames to help prevent stale
+versions. Older portfolio-20261004.css, portfolio-20261004.js, styles.css, or
+portfolio-concepts-20261002.js files can remain; this homepage does not load them.
+
+After your existing publishing workflow completes, refresh the live page.
+The published update should show the opening headline and all four brand
+choices in Strategy. If assets are missing, check that the whole assets folder
+was uploaded with its subfolders.
+
+CONTACT
+The message helper opens a draft in the visitor's email app. It does not send
+or save a message. A copy-message fallback and direct email link are included.
+Fonts use Google Fonts with local system-font fallbacks when unavailable.
+
+BEFORE PUBLISHING
+Source, asset, and interaction logic checks passed. Live browser verification
+was blocked in this environment. Preview on a desktop and phone, check for
+overflow, and try the brand selector, tabs, project previews, menu, and contact
+actions. The ZIP has not changed your live GitHub website.
+
+Read PORTFOLIO-HANDOVER.md for changes, sample labels, verification limits,
+and the evidence to begin collecting from real projects.
+
+Existing repository: https://github.com/magalemae-sudo/maesocials.github.io
+Existing portfolio address: https://magalemae-sudo.github.io/maesocials.github.io/
+This ZIP does not itself update the live website.
